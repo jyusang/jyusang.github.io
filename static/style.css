@@ -1,0 +1,22 @@
+html {
+  font-family: monospace;
+}
+
+body {
+  margin: auto;
+  max-width: 48em;
+  overflow: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+    color: white;
+  }
+  a {
+    color: yellow;
+  }
+  a:visited {
+    color: green;
+  }
+}
